@@ -18,15 +18,22 @@ The **EXECUTER** should return a valid MQTT package to be publish or undefined/f
 ### CONDITION
 
 To validate the request we recommend ...
-
-1. Regex to validate the topic
-2. [JSON Schema][json-schema] to validate the payload 
+ 
+     function CONDITION(pack) {
+         return /^myReq$/.test(pack.topic)
+     }
+     
+> Tip: use [JSON Schema][json-schema] to validate the payload
 
 ### EXECUTER
 
 Should return a valid package..
 
- 1. Return payload as Buffer `new Buffer.from(JSON.stringify(obj))`
+    function EXECUTER(pack) {
+        pack.payload = new Buffer.from(JSON.stringify({hello:'word'}))
+        return pack 
+    }
+
  
 ## Get Starter
 
