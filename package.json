@@ -1,0 +1,22 @@
+{
+  "name": "mqtt-server-fp-style",
+  "version": "0.0.1",
+  "description": "Example using FP to handle MQTT request",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "ridermansb <ridermansb@gmail.com> (http://ridermansb.me/)",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^5.1.4",
+    "mosca": "^2.5.1",
+    "ramda": "^0.24.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-register": "^6.24.1",
+    "dotenv": "^4.0.0"
+  }
+}
