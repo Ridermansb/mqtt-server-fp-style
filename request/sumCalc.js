@@ -1,7 +1,7 @@
 /*
- Channel: hello/{text}
- Request:  { "command": "display_message" }
- Response: { "ok": true }
+ Channel: calc/{num1},{num2}
+ Request:  { "command": "sum" }
+ Response: {result}
  */
 
 import R from 'ramda';
