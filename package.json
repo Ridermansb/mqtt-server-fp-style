@@ -7,7 +7,12 @@
     "start": "node index.js"
   },
   "author": "ridermansb <ridermansb@gmail.com> (http://ridermansb.me/)",
-  "license": "ISC",
+  "keywords": [
+    "mqtt",
+    "ramda",
+    "fp",
+    "functional-programming"
+  ],
   "dependencies": {
     "ajv": "^5.1.4",
     "mosca": "^2.5.1",
@@ -18,5 +23,11 @@
     "babel-preset-env": "^1.5.1",
     "babel-register": "^6.24.1",
     "dotenv": "^4.0.0"
-  }
+  },
+  "engines": {
+    "node": ">=7.6.0",
+    "npm": ">=4.2.0",
+    "yarn": ">=0.22.0"
+  },
+  "license": "SEE LICENSE IN LICENSE.txt"
 }
