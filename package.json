@@ -15,7 +15,7 @@
   ],
   "dependencies": {
     "ajv": "^5.1.4",
-    "mosca": "^2.5.1",
+    "mosca": "^2.8.2",
     "ramda": "^0.24.0"
   },
   "devDependencies": {
