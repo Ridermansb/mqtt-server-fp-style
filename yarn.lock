@@ -652,12 +652,6 @@ bitsyntax@~0.0.4:
   dependencies:
     buffer-more-ints "0.0.2"
 
-bl@^0.9.1:
-  version "0.9.5"
-  resolved "https://registry.yarnpkg.com/bl/-/bl-0.9.5.tgz#c06b797af085ea00bc527afc8efcf11de2232054"
-  dependencies:
-    readable-stream "~1.0.26"
-
 bl@^1.0.0, bl@~1.2.1:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/bl/-/bl-1.2.2.tgz#a160911717103c07410cef63ef51b397c025af9c"
@@ -1832,10 +1826,10 @@ mqtt-connection@^2.0.0, mqtt-connection@^2.1.1:
     through2 "^0.6.3"
 
 mqtt-packet@^3.0.0, mqtt-packet@^3.4.7:
-  version "3.4.8"
-  resolved "https://registry.yarnpkg.com/mqtt-packet/-/mqtt-packet-3.4.8.tgz#965774aa45952f16392f9accaac5d0bf511fa1a5"
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/mqtt-packet/-/mqtt-packet-3.5.1.tgz#49b3688478ca3325fe45841fad7c88bc31042aeb"
   dependencies:
-    bl "^0.9.1"
+    bl "^1.0.0"
     inherits "^2.0.1"
 
 mqtt@^1.10.0, mqtt@^1.6.3:
