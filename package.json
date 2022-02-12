@@ -14,7 +14,7 @@
     "functional-programming"
   ],
   "dependencies": {
-    "ajv": "^5.1.4",
+    "ajv": "^6.12.3",
     "mosca": "^2.8.2",
     "ramda": "^0.24.0"
   },
